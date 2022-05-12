@@ -1,0 +1,74 @@
+<!DOCTYPE html>                                                <!--def. de Bootstrap pode ser um conjunto de estilos para classes e componetes predefinidos  --> 
+<html lang="pt-br">                                            <!--add a lingua  -->      <!-- -->                
+    <head>
+        <title>minha página</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type=" text/css" href="bootstrap/css/bootstrap.min.css">  <!--add biblioteca do bootstrap com seu proprio css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">                     <!-- criando nossa proprio css modificado -->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin">                                      <!--barra navegador -->   
+           <a class="navbar-brand" href="#"> 
+            <img src="DIOic.png" width="100px" height="80px" class="img">
+           </a>
+           <div class="collapse navbar-collapse">
+               <ul class="navbar-nav">
+                    <il class="nav-item"> 
+                        <a class="nav-link" href="#quemsomos">Quem somos</a> 
+                    </il>
+                    <il class="nav-item"> 
+                        <a class="nav-link" href="#parceiros">parceiros</a> 
+                    </il>
+                    <il class="nav-item"> 
+                        <a class="nav-link" href="#servicos">serviços</a> 
+                    </il>
+               </ul>
+           </div>
+        </nav>
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">                  <!-- (container) barra embaixo do navbar, e o container-fluid pega pag inteira-->
+              <h3 >Quem somos</h3>
+              <img src="code.jpg" class="rounded-circle" width="300" height="300"> <!-- a class rounded-circle serve para deixar a imagem circular -->
+              <h3 class="margin">Somos comprometidos com o resultado</h3>
+            </div>
+        </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">PARCEIROS</h3>
+            <div class="container">
+                <div class="row">           <!--colunas-->
+                    <div class="col-lg-4">  <!--lg para large e md para medium e sm small -->
+                        <img src="dio.png">   
+                    </div> 
+                    <div class="col lg-4">
+                        <img src="dio.png">    
+                    </div>  
+                    <div class="col-lg-4">  <!--lg para large e md para medium e sm small -->
+                        <img src="dio.png">   
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">SERVIÇOS</h3>
+            <div class=" container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="servt">ASDJKAHSDHASKJDA</p>
+                        <img src="serv.jpg" width="100%"> 
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="servt">ASDJKAHSDHASKJDA</p>
+                        <img src="serv.jpg"width="100%" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center bg-footer margin"> <!--rodapé com container-fluid pra pegar a pge inteira-->
+        <p>Desenvolvido por Leonardo R</p>
+    </footer>      
+    </body>
+</html>
